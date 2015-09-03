@@ -1,6 +1,7 @@
 # libxml2-winrt
-libxml2 static to winrt; version XGH... please constribute
+libxml2 static to winrt; version XGH... please contribute
 
+- libxml2 2.9.0
 - Line from configure like:
 cscript configure.js cruntime=/MTd ftp=no http=no html=no docb=no iconv=no iso8859x=yes xml_debug=no zlib=yes static=yes debug=? prefix=.\installd64 lib=..\zlib\winrt\x64\debug include=..\include;..\zlib\win32\include
 - Don't forget change your zlib patch
